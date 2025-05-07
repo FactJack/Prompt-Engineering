@@ -25,9 +25,3 @@ We welcome feedback, bug reports, and contributions to make this tool even bette
 - **rsync**: Pre-installed on macOS.
 - **tqdm**: For the progress bar (installed via `pip`).
 - **Permissions**: Full Disk Access for Python or Terminal in `System Settings > Privacy & Security > Full Disk Access`.
-
-## Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/photo-backup.git
-   cd photo-backup
