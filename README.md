@@ -9,6 +9,8 @@ Programs engineered through advanced and descriptive AI prompts
 
 A Python script to efficiently back up photos and videos from a macOS .PhotosLibrary to an external or network drive, with duplicate detection to avoid redundant copies. Optimized for modest hardware, this script uses `rsync` for reliable file transfers and SHA-256 hashing for duplicate checking.
 
+Who needs iCloud when you have a terminal!
+
 We welcome feedback, bug reports, and contributions to make this tool even better!
 ## Features
 - Backs up photos and videos from macOS Photos Library (`*.photoslibrary`).
@@ -16,7 +18,8 @@ We welcome feedback, bug reports, and contributions to make this tool even bette
 - Checks for duplicates using file size and SHA-256 hashing to save space.
 - Uses `rsync` for efficient, incremental file transfers.
 - Includes a progress bar for user-friendly monitoring.
-- Optimized for single-threaded execution, suitable for low-end systems.
+- Optimized for single-threaded execution, suitable for low-end systems, or background run.
+- Ready for adjacent operating system optimization (RaspberryPy, Linux, Third Party devices). 
 - Detailed logging for debugging and tracking.
 
 ## Prerequisites
