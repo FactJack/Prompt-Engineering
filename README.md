@@ -19,7 +19,8 @@ We welcome feedback, bug reports, and contributions to make this tool even bette
 - Uses `rsync` for efficient, incremental file transfers.
 - Includes a progress bar for user-friendly monitoring.
 - Optimized for single-threaded execution, suitable for low-end systems, or background run.
-- Ready for adjacent operating system optimization (RaspberryPy, Linux, Third Party devices). 
+- Ready for adjacent operating system optimization (RaspberryPy, Linux, Third Party devices).
+- Retains the .PhotoLibrary file structure for importing back into your personal devices. 
 - Detailed logging for debugging and tracking.
 
 ## Prerequisites
@@ -27,4 +28,4 @@ We welcome feedback, bug reports, and contributions to make this tool even bette
 - **Python 3.6+**: Ensure Python is installed (check with `python3 --version`).
 - **rsync**: Pre-installed on macOS.
 - **tqdm**: For the progress bar (installed via `pip`).
-- **Permissions**: Full Disk Access for Python or Terminal in `System Settings > Privacy & Security > Full Disk Access`.
+- **Permissions**: Full Disk Access for Python or Terminal in `System Settings > Privacy & Security > Full Disk Access`, for .Photolibrary file structure nuances. 
